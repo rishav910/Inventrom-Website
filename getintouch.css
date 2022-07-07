@@ -1,0 +1,48 @@
+.table{
+	width: 48%;
+	float: left;
+	margin:10px 0px 0px 40px;
+}
+.container_3{
+	width: 48%;
+	float: right;
+	font-family: Courier New, monospace;
+}
+
+.contact_us{
+	margin: 10px;
+	display: inline-block;
+	position: absolute;
+	color: #000000;
+}
+
+.contact_us_logo{
+	margin: 4px;
+	display: inline-block;
+	position: relative;
+}
+
+@media (max-width:500px){
+	.container_3{
+		width: 38%;
+		float: right;
+		font-size: 12px;
+		font-family: Courier New, monospace;
+	}
+	.contact_us{
+		margin: 10px;
+		display: inline-block;
+		position: relative;
+		color: #000000;
+	}
+	.contact_us_logo{
+		margin: 4px;
+		display: inline-block;
+		position: relative;
+	}
+	.table{
+		width: 50%;
+		float: left;
+		margin:10px 0px 0px 35px;
+	}
+}

@@ -1,0 +1,133 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0px;
+}
+
+
+#about{
+	position: relative;
+	top: 100vh;
+}
+
+
+#awards{
+	position: relative;
+	top: 125vh;
+}
+
+
+#contact{
+	position: relative;
+	top: 125vh;
+}
+
+.inventrome_header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 80px;
+	width: 100%;
+	z-index: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+	height: 100%;
+	margin: 15px 0px 15px 200px;
+}
+
+.inventrome_nav {
+	float: right;
+	height: 100%;
+	padding:10px 125px 0px 0px;
+
+}
+
+.inventrome_nav a{
+	color: #0a0a0a;
+	padding-right: 20px;
+	text-decoration: none;
+	font-weight: 600;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background{
+	position: absolute;
+	top: 48px;
+	width: 100%;
+}
+
+.background_img{
+	background-image: url(background-layer.jpg);
+	height: 500px;
+	width: 100%;
+	text-align: center;
+}
+
+.quote{
+	color: white;
+	position: relative;
+	top: 40%;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.quote_2{
+	color: white;
+	position: relative;
+	top: 50%;
+	font-style: bold;
+}
+@media (max-width:500px){
+	.inventrome_header{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		height: 80px;
+		width: 100%;
+		z-index: 100;
+		background-color: rgb(177, 175, 175);
+	}
+	.background_img{
+		background-image: url(background-layer.jpg);
+		height: 500px;
+		width: 100%;
+		text-align: center;
+	}
+	.quote{
+		color: white;
+		position: relative;
+		top: 40%;
+		font-style: italic;
+		font-size: 13px;
+	}
+	
+	.quote_2{
+		color: white;
+		position: relative;
+		top: 50%;
+		font-style: bold;
+		font-size: 10px;
+	}
+	.logo{
+		height: 70%;
+		margin: 15px 0px 15px 15px;
+	}
+	.logo img{
+		width:125px;
+	}
+	.inventrome_nav a{
+		color: #0a0a0a;
+		margin-right: 0px;
+		padding-right: 0px;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 13px;
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	}
+}
